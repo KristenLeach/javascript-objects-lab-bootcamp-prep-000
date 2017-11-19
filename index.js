@@ -1,6 +1,6 @@
-var recipes = new Object({'flour': '3 cups', 'eggs': '2', 'sugar': '1 cup'});
+var recipes = new Object({'prop': 1});
 
 function updateObjectWithKeyAndValue(object, key, value){
-  Object.assign({'salt': 'pinch'}, recipes);
+  Object.assign({'prop2': '2'}, recipes);
   return recipes;
 }
