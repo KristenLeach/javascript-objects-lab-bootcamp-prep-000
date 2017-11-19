@@ -1,4 +1,4 @@
-var recipes = new Object({'prop': 1});
+const recipes = new Object({'prop': 1});
 
 function updateObjectWithKeyAndValue(object, key, value){
   var newRecipe = Object.assign({'prop2': 2}, recipes);
